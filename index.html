@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patinhas em Ação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Estilo da parte superior */
+        .header {
+            width: 100%;
+            background-color: #abf7b1;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .info-creator {
+            margin-left: 20px;
+        }
+        .header .phone-numbers {
+            margin-right: 20px;
+        }
+        /* Estilo da parte central */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin-top: 20px;
+        }
+        /* Planilha de contatos */
+        .contacts {
+            width: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contacts .contact-item {
+            width: 150px;
+            height: 150px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .contacts img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        /* Aba de pesquisa */
+        .search-bar {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+        }
+        .search-bar input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com informações sobre quem criou o site -->
+    <div class="header">
+        <div class="info-creator">
+            <h2><a href = "https://www.instagram.com/projetopatinhasemacao/?igsh=dWZnZW9pdTNjd3puPatinhas"> Patinhas em Ação </a></h2>
+        </div>
+        <div class="phone-numbers">
+            <h3>PLACEHOLDER</h3>
+        </div>
+    </div>
+
+    <!-- Conteúdo central -->
+    <div class="content">
+        <!-- Planilha de contatos à esquerda -->
+        <div class="contacts">
+            <div class="contact-item">
+                <img src="zoro_jamille.jfif" alt="zoro_jamille">
+                <strong>Zoro <br>Jamille Menezes</strong><br>
+                <small>(51) 9 8060-3138</small>
+            </div>
+            <div class="contact-item">
+                <img src="https://via.placeholder.com/60" alt="Foto Maria Pereira">
+                <strong>Placeholder</strong><br>
+                <small>(0) 0</small>
+            </div>
+            <div class="contact-item">
+                <img src="https://via.placeholder.com/60" alt="Foto Carlos Souza">
+                <strong>Placeholder</strong><br>
+                <small>(0) 0</small>
+            </div>
+            <div class="contact-item">
+                <img src="https://via.placeholder.com/60" alt="Foto Ana Costa">
+                <strong>Placeholder</strong><br>
+                <small>(0) 0</small>
+            </div>
+            <div class="contact-item">
+                <img src="https://via.placeholder.com/60" alt="Foto Pedro Almeida">
+                <strong>Placeholder</strong><br>
+                <small>(0) 0</small>
+            </div>
+            <div class="contact-item">
+                <img src="https://via.placeholder.com/60" alt="Foto Fernanda Lima">
+                <strong>Placeholder</strong><br>
+                <small>(0) 0</small>
+            </div>
+        </div>
+
+        <!-- Aba de pesquisa à direita -->
+        <div class="search-bar">
+            <h2>Pesquisar Contatos</h2>
+            <input type="text" placeholder="Digite o nome ou telefone">
+        </div>
+    </div>
+</body>
+</html>
