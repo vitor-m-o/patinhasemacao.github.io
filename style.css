@@ -11,28 +11,27 @@
             width: 100%;
             background-color: #ecd6e0;
             color: white;
-            padding: 20px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
         .header .instagram {
-            margin-left: 20px;
+            margin-left: 10%;
         }
         .header .cadastrar {
-            margin-right: 20px;
+            margin-right: 10%;
             color: black;
             background-color: #FFFFFF;
-            border-radius: 10px;
+            border-radius: 10%;
         }
         .round-button {
-            width: 120px; /* Largura do botão */
-            height: 60px; /* Altura do botão, igual à largura */
+            width: 100%; /* Largura do botão */
+            height: 80%; /* Altura do botão, igual à largura */
             border-radius: 90%; /* Faz o botão ser circular */
             background-color: #ffffff; /* Cor de fundo */
             color: black; /* Cor do texto */
             border: none; /* Remove a borda padrão */
-            font-size: 16px; /* Tamanho do texto */
+            font-size: 90%; /* Tamanho do texto */
             font-weight: bold;
             display: flex;
             align-items: center;
@@ -44,35 +43,35 @@
             display: flex;
             justify-content: space-between;
             width: 90%;
-            margin-top: 20px;
+            margin-top: 2%;
         }
         /* Planilha de contatos */
         .contacts {
             width: 60%;
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 5%;
         }
         .contacts .contact-item {
-            width: 150px;
-            height: 150px;
+            width: 15%;
+            height: 45%;
             background-color: #ecd6e0;
-            border: 1px solid #ddd;
+            border: 5% solid #ddd;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 10px;
+            padding: 2%;
             text-align: center;
-            border-radius: 10px;
-            line-height: 1.2; /* Ajuste para reduzir o espaço entre linhas */
+            border-radius: 5%;
+            line-height: 110%; /* Ajuste para reduzir o espaço entre linhas */
         }
         .contacts img {
-            width: 60px;
-            height: 60px;
+            width: 50%;
+            height: 30%;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 10px;
+            margin-bottom: 10%;
         }
         .search-bar {
             width: 30%;
@@ -83,10 +82,10 @@
         }
         .search-bar input[type="text"] {
             color: black;
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
+            width: 99%;
+            padding: 3%;
+            font-size: 100%;
             font-weight: bold;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
+            margin-bottom: 10%;
+            border: 5% solid #ddd;
         }
