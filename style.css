@@ -47,10 +47,10 @@
         }
         /* Planilha de contatos */
         .contacts {
-            width: 60%;
+            width: 65%;
             display: flex;
             flex-wrap: wrap;
-            gap: 5%;
+            gap: 7%;
         }
         .contacts .contact-item {
             width: 15%;
